@@ -1,5 +1,0 @@
-pwd
-date
-ls -l
-df -h
-ps -eo pid,ppid,comm
