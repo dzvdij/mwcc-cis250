@@ -1,9 +1,0 @@
-1. test_runner.c ran all five commands from texts.txt. All five tests passed, and the summary showed 5 tests executed, 5 passed and 0 fails.
-
-2. added a blank line and a comment beginning with # and test_runner did not treat them as commands skipped them. The other commands still ran without issues.
-
-3. Adding invalid_test_program in tests.txt, test_runner prints an error because it could not be found, therefore marking the test as a fail and moves to the next test instead of stopping. 
-
-4. I moved date command to the beginning and pwd at the end of tests.txt. The commands have been executed in the same order, showing that the execution order is followed.
-
-5. When I renmaed tests.txt, file open error will occur because it could not find "tests.txt" and exits with an error status.
